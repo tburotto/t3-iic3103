@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from './components/navbar'
 import { blue } from '@material-ui/core/colors';
 import Typography from '@material-ui/core/Typography';
-import io from 'socket.io-client'
+import IO from 'socket.io-client'
 import { createMuiTheme, ThemeProvider } from '@material-ui/core/styles';
 import Grid from './components/grid'
 import Card from './components/stock'
@@ -38,7 +38,7 @@ const styles = {
   }
 }
 
-const socket = io('wss://le-18262636.bitzonte.com', {
+const socket = IO('wss://le-18262636.bitzonte.com', {
   path: '/stocks'
 
 })
