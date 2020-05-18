@@ -9,6 +9,7 @@
   "homepage": "http://tburotto.github.io/t3-iic3103",
   "dependencies": {
     "@material-ui/core": "^4.9.14",
+    "@material-ui/icons": "^4.9.1",
     "chart.js": "^2.9.3",
     "moment": "^2.25.3",
     "react": "^16.13.1",
